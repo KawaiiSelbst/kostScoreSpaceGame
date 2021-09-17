@@ -1,0 +1,6 @@
+G:\1. NotGames\Godot\AudioVisualiser\VSGodot\bin\Debug\VSGodot.dll
+G:\1. NotGames\Godot\AudioVisualiser\VSGodot\bin\Debug\VSGodot.pdb
+G:\1. NotGames\Godot\AudioVisualiser\VSGodot\obj\Debug\VSGodot.csproj.AssemblyReference.cache
+G:\1. NotGames\Godot\AudioVisualiser\VSGodot\obj\Debug\VSGodot.csproj.CoreCompileInputs.cache
+G:\1. NotGames\Godot\AudioVisualiser\VSGodot\obj\Debug\VSGodot.dll
+G:\1. NotGames\Godot\AudioVisualiser\VSGodot\obj\Debug\VSGodot.pdb
