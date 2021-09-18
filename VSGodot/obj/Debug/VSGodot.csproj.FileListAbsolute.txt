@@ -4,3 +4,9 @@ G:\1. NotGames\Godot\AudioVisualiser\VSGodot\obj\Debug\VSGodot.csproj.AssemblyRe
 G:\1. NotGames\Godot\AudioVisualiser\VSGodot\obj\Debug\VSGodot.csproj.CoreCompileInputs.cache
 G:\1. NotGames\Godot\AudioVisualiser\VSGodot\obj\Debug\VSGodot.dll
 G:\1. NotGames\Godot\AudioVisualiser\VSGodot\obj\Debug\VSGodot.pdb
+H:\Documents\Godot Projects\Godot Mono\ScoreSpaceGAME\VSGodot\bin\Debug\VSGodot.dll
+H:\Documents\Godot Projects\Godot Mono\ScoreSpaceGAME\VSGodot\bin\Debug\VSGodot.pdb
+H:\Documents\Godot Projects\Godot Mono\ScoreSpaceGAME\VSGodot\obj\Debug\VSGodot.csproj.AssemblyReference.cache
+H:\Documents\Godot Projects\Godot Mono\ScoreSpaceGAME\VSGodot\obj\Debug\VSGodot.csproj.CoreCompileInputs.cache
+H:\Documents\Godot Projects\Godot Mono\ScoreSpaceGAME\VSGodot\obj\Debug\VSGodot.dll
+H:\Documents\Godot Projects\Godot Mono\ScoreSpaceGAME\VSGodot\obj\Debug\VSGodot.pdb

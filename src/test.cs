@@ -1,8 +1,10 @@
-using Godot;
+﻿using Godot;
 using System;
 
 public class test : Node
 {
+    // здесь начинается легенда :D
+    // Дарова
     // Declare member variables here. Examples:
     // private int a = 2;
     // private string b = "text";
