@@ -10,3 +10,9 @@ H:\Documents\Godot Projects\Godot Mono\ScoreSpaceGAME\VSGodot\obj\Debug\VSGodot.
 H:\Documents\Godot Projects\Godot Mono\ScoreSpaceGAME\VSGodot\obj\Debug\VSGodot.csproj.CoreCompileInputs.cache
 H:\Documents\Godot Projects\Godot Mono\ScoreSpaceGAME\VSGodot\obj\Debug\VSGodot.dll
 H:\Documents\Godot Projects\Godot Mono\ScoreSpaceGAME\VSGodot\obj\Debug\VSGodot.pdb
+E:\Users\костя\Documents\space_jam\1\kostScoreSpaceGame\VSGodot\obj\Debug\VSGodot.dll
+E:\Users\костя\Documents\space_jam\1\kostScoreSpaceGame\VSGodot\obj\Debug\VSGodot.pdb
+E:\Users\костя\Documents\space_jam\1\kostScoreSpaceGame\VSGodot\bin\Debug\VSGodot.dll
+E:\Users\костя\Documents\space_jam\1\kostScoreSpaceGame\VSGodot\bin\Debug\VSGodot.pdb
+E:\Users\костя\Documents\space_jam\1\kostScoreSpaceGame\VSGodot\obj\Debug\VSGodot.csproj.AssemblyReference.cache
+E:\Users\костя\Documents\space_jam\1\kostScoreSpaceGame\VSGodot\obj\Debug\VSGodot.csproj.CoreCompileInputs.cache
