@@ -4,38 +4,43 @@ using System.Threading.Tasks;
 
 public class ObstacleBox : Area2D
 {
-    private RandomNumberGenerator rng = new RandomNumberGenerator();
-    private bool isMooving = false;
     [Export]
-    private int movementDelaySecs = 5;
+    private bool _isMooving = false;
     [Export]
-    private int boxMovementSpeed = -800;
+    private int _boxMovementSpeed = -800;
+
+    private GameObjectsController _gameObjectsControllerInstance;
 
     // Called when the node enters the scene tree for the first time.
     public override void _Ready()
     {
-        isMooving = true;
+        _gameObjectsControllerInstance = GetParent<GameObjectsController>();
     }
 
-    public void OutOfScreen()
+    public void _on_ObstacleBox_area_entered(Area2D enteredArea)
     {
-        Position = new Vector2(1124, rng.RandiRange(65, 585));
-        isMooving = false;
-        Task.Delay(movementDelaySecs * 1000).ContinueWith(_ =>
+        if (enteredArea.Name == "OutOfScreenArea2D")
         {
-            StartMoving();
-        });
+            _gameObjectsControllerInstance.AddObjectToStandbyList(this);
+#if DEBUG
+            GD.Print("DEBUG: " + _gameObjectsControllerInstance + " [Name: " + _gameObjectsControllerInstance.Name + "] out of screen");
+#endif
+        }
     }
 
-    private void StartMoving()
+    public void StopMoving()
     {
-        isMooving = true;
+        _isMooving = false;
+    }
+    public void StartMoving()
+    {
+        _isMooving = true;
     }
 
 
     public override void _Process(float delta)
     {
-        if (isMooving) 
-            Position += new Vector2(boxMovementSpeed * delta, 0);
+        if (_isMooving) 
+            Position += new Vector2(_boxMovementSpeed * delta, 0);
     }
 }

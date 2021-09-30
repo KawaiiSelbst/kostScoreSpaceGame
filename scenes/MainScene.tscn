@@ -1,0 +1,56 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://src/GameObjectsController.cs" type="Script" id=1]
+[ext_resource path="res://src/Player.cs" type="Script" id=2]
+[ext_resource path="res://assets/sprite/person.png" type="Texture" id=4]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 570.515, 57.6437 )
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 45.0
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 181.524, 459.35 )
+
+[node name="MainScene" type="Node2D"]
+
+[node name="OutOfScrenBorders" type="Node2D" parent="."]
+
+[node name="OutOfScreeBorderWall" type="StaticBody2D" parent="OutOfScrenBorders"]
+position = Vector2( 112.68, 278.91 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="OutOfScrenBorders/OutOfScreeBorderWall"]
+position = Vector2( 394.32, -336.618 )
+shape = SubResource( 1 )
+
+[node name="OutOfScreeBorderWall2" type="StaticBody2D" parent="OutOfScrenBorders"]
+position = Vector2( 99.6856, 994.441 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="OutOfScrenBorders/OutOfScreeBorderWall2"]
+position = Vector2( 394.32, -336.618 )
+shape = SubResource( 1 )
+
+[node name="Player" type="RigidBody2D" parent="."]
+position = Vector2( 112.68, 277.496 )
+gravity_scale = 0.0
+linear_damp = 2.0
+script = ExtResource( 2 )
+
+[node name="PlayerSprite" type="Sprite" parent="Player"]
+scale = Vector2( 0.6, 0.6 )
+texture = ExtResource( 4 )
+
+[node name="PlayerCollisionShape2D" type="CollisionShape2D" parent="Player"]
+shape = SubResource( 2 )
+
+[node name="Game Objects" type="Node2D" parent="."]
+script = ExtResource( 1 )
+NumberOfObstecleBoxes = 100
+
+[node name="OutOfScreenArea2D" type="Area2D" parent="."]
+position = Vector2( -293.23, 341.946 )
+
+[node name="AreaCollisionShape2D" type="CollisionShape2D" parent="OutOfScreenArea2D"]
+position = Vector2( 15.1361, 3.36359 )
+shape = SubResource( 4 )

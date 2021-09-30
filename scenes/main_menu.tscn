@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://src/main_menu.cs" type="Script" id=1]
+[ext_resource path="res://src/MainMenu.cs" type="Script" id=1]
 
 [node name="Panel" type="Panel"]
 margin_right = 40.0
@@ -49,6 +49,5 @@ margin_top = 122.0
 margin_right = 527.0
 margin_bottom = 136.0
 
-[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
 [connection signal="pressed" from="Button2" to="." method="_on_Button2_pressed"]
 [connection signal="pressed" from="Button3" to="." method="_on_Button3_pressed"]

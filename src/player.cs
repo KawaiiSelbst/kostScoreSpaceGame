@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public class player : RigidBody2D
+public class Player : RigidBody2D
 {
     int Up_Pressed, Down_Pressed, Right_Pressed, Left_Pressed;
     [Export]
